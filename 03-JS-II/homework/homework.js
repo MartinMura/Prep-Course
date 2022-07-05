@@ -119,7 +119,7 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-  if(Math.floor(numero) === numero){
+  if(Math.floor(numero) === numero){ /* math.ceil devuelve el entero mas grande, y floor el menor tipo 4.6 con ceil seria */
     return true
   } else {
     return false
